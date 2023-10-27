@@ -21,7 +21,7 @@ const putObject = async (fileName, contentType) => {
 }
 
 const init = async () => {
-    console.log ('url for uploading ', await putObject ('image-download.jpg', 'image/jpeg'))
+    console.log ('url for uploading ', await putObject ('image-download.png', 'png'))
 }
 
 init ()
